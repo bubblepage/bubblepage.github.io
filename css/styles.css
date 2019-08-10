@@ -1,3 +1,21 @@
 body {
-    background: linear-gradient(to left, #282e35, #4e545b);
+    font-family: 'gilroylight';
+    color: #f5e2c6;
+    background: linear-gradient(to left, #20242a, #7f8388);
+}
+.header {
+	font-size: xx-large;
+    font-weight: bold;
+    margin: 25px;
+}
+.position {
+	margin-left: 25px
+}
+@font-face {
+    font-family: 'gilroylight';
+    src: url('../fonts/gilroy-light-webfont.woff2') format('woff2'),
+    	 url('../fonts/gilroy-light-webfont.ttf') format('truetype'),
+         url('../fonts/gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
